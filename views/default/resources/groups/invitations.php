@@ -22,7 +22,7 @@ $title = elgg_echo("$identifier:invitations");
 
 elgg_push_breadcrumb(elgg_echo($identifier), "$identifier/all");
 if ($user->guid !== elgg_get_logged_in_user_guid()) {
-	elgg_push_breadcumb($user->name, $user->getURL());
+	elgg_push_breadcrumb($user->name, $user->getURL());
 }
 elgg_push_breadcrumb($title);
 
